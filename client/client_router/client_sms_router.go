@@ -57,4 +57,5 @@ func OutoutBroadCastSms(mes *message.Message) {
 	//显示
 	fmt.Printf("用户id:\t%d 对大家说:\t%s", smsMes.UserId, smsMes.Content)
 	fmt.Println("\n")
+	fmt.Println("\n")
 }
